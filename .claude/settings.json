@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip -l india-education-pathways.skill)",
+      "Bash(mkdir -p references scripts)",
+      "Bash(mv after-10th.md after-12th.md after-graduation.md reality-check.md volatile-data.md references/)",
+      "Bash(mv build_plan.py scripts/)",
+      "Bash(unzip -j -o india-education-pathways.skill \"india-education-pathways/scripts/example-plan.json\" -d scripts/)",
+      "Bash(python scripts/build_plan.py scripts/example-plan.json --start 2026-08-10)",
+      "Bash(python -)",
+      "Bash(ls ~/.claude/skills/ 2>/dev/null; echo \"--- settings ---\"; cat .claude/settings.json 2>/dev/null)",
+      "Read(//c/Users/venka/.claude/skills/**)",
+      "Read(//c/Users/venka/.claude/skills/india-education-pathways/**)",
+      "Read(//c/Users/venka/.claude/skills/india-education-pathways/scripts/**)"
+    ]
+  }
+}

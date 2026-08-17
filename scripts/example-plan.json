@@ -1,0 +1,16 @@
+{
+  "student": "Class 12 PCM, Telangana, 82%",
+  "primary_path": "State CET engineering admission",
+  "hard_deadlines": [
+    {"date": "2026-09-20", "what": "TS EAMCET counselling registration closes", "source": "tgeapcet.nic.in", "verified": false},
+    {"date": "2026-08-18", "what": "Income certificate application", "source": "MeeSeva", "verified": true}
+  ],
+  "milestones": [
+    {"week": 1, "what": "Collect caste, income and domicile certificates"},
+    {"week": 3, "what": "Shortlist 15 colleges by branch and fee"},
+    {"week": 6, "what": "First full mock, review with a teacher"}
+  ],
+  "review_points": [
+    {"week": 6, "question": "Are mock scores moving?", "if_no": "Switch to the Plan B shortlist this week."}
+  ]
+}
